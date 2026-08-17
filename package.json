@@ -1,8 +1,10 @@
 {
-  "scripts":{
-    "dev" : "nodemon HttpModule.js"
+  "scripts": {
+    "dev": "nodemon HttpModule.js"
   },
   "dependencies": {
+    "axios": "^1.19.0",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.14"
   }
 }
